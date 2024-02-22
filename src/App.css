@@ -1,0 +1,111 @@
+:root{
+  --c1:#0c1a3c;
+  --c2:<?php echo get_field('secondary_color','option');?>;
+--c3:<?php echo get_field('optional_color','option');?>;
+--gradient: linear-gradient(to right, #173785 0%, #09090A 50%, #072B87 100%);
+--gradient2: radial-gradient(ellipse at center, #30509B 0%, #0A1A3D 55%);
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: #000;
+  transition: all 0.3s;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+.header-wrapper {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: all 0.4s;
+}
+.header-top {
+  /* background-color: var(--c1); */
+  color: #fff;
+  padding: 10px 0;
+}
+.header-top ul {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  justify-content: space-between;
+}
+.header-top ul li img {
+  width: 20px;
+}
+.header-top a {
+  color: #fff;
+}
+header.header {
+  padding: 10px 0;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.main-menu > div > ul {
+  display: flex;
+  column-gap: 24px;
+  justify-content: end;
+}
+.main-menu ul a {
+  color: var(--c1);
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.main-menu ul li.current-menu-item > a {
+  color: var(--c2);
+}
+.main-menu ul li.menu-item-has-children > a:after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Pro";
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.main-menu ul li ul.sub-menu {
+  position: absolute;
+  background-color: #fff;
+  width: max-content;
+  box-shadow: 0 0 10px 0 #cbcbcb;
+  border-radius: 6px;
+  margin-top: 10px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s;
+}
+.main-menu ul li ul.sub-menu a {
+  padding: 7px 25px;
+  display: block;
+  font-size: 12px;
+}
+.main-menu .menu > li > ul.sub-menu > li:not(:last-child) > a,
+ul.sub-menu > li:not(:last-child) > a {
+  margin-bottom: 10px;
+}
+.main-menu ul li.menu-item-has-children:hover > ul.sub-menu {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0px;
+}
+.main-menu ul li ul.sub-menu ul.sub-menu {
+  left: 100%;
+  top: 0;
+}
+.main-menu ul li.menu-item-has-children {
+  position: relative;
+}
