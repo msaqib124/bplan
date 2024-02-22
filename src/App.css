@@ -1,6 +1,6 @@
 :root{
   --c1:#0c1a3c;
-  --c2:<?php echo get_field('secondary_color','option');?>;
+  --c2:;
 --c3:<?php echo get_field('optional_color','option');?>;
 --gradient: linear-gradient(to right, #173785 0%, #09090A 50%, #072B87 100%);
 --gradient2: radial-gradient(ellipse at center, #30509B 0%, #0A1A3D 55%);
