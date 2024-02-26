@@ -15,12 +15,12 @@ const Header = () => {
               <li>
                 <img
                   alt=""
-                  src="https://bplanwriter.com/wp-content/uploads/2024/01/united-states-of-america-copy.webp"
+                  src="./src/assets/img/united-states-of-america-copy.webp"
                 />
                 <img
                   alt=""
                   className="mx-2"
-                  src="https://bplanwriter.com/wp-content/uploads/2024/01/canada-copy.webp"
+                  src="./src/assets/img/canada-copy.webp"
                 />
                 <a href="tel:+1 (512) 521-1557">+1 (512) 521-1557</a>
               </li>
@@ -31,13 +31,11 @@ const Header = () => {
               <div className="row align-items-center h-100">
                 <div className="col-lg-2 col-sm-3 col-5">
                   <div className="logo">
-                    <a href="https://bplanwriter.com">
+                    <a href="#">
                       <img
                         className="h-auto"
-                        height={71}
-                        width={223}
                         alt=""
-                        src="https://bplanwriter.com/wp-content/uploads/2024/01/logo-copy.webp"
+                        src="src/assets/img/logo-copy.webp"
                       />
                     </a>
                   </div>
