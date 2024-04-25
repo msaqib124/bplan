@@ -335,7 +335,7 @@ section.about-sec .content p:first-of-type {
   animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
-  webkit-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
 .custom-theme-post-description a i {

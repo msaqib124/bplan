@@ -114,7 +114,7 @@ const Header = () => {
                             </a>
                           </li>
                         </ul>
-                      </div>{" "}
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -146,7 +146,6 @@ const Header = () => {
               </div>
             </div>
           </header>
-          {/*header end*/}
         </div>
       </div>
     </>
