@@ -23,6 +23,7 @@ const Header = () => {
                   src="./src/assets/img/canada-copy.webp"
                 />
                 <a href="tel:+1 (512) 521-1557">+1 (512) 521-1557</a>
+                | <img src="./src/assets/img/world-1 copy.webp"/><a href="tel:+61 420 531 362">+61 420 531 362</a>
               </li>
             </ul>
           </div>

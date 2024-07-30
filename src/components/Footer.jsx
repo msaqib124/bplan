@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <section className="consultation pb-5">
+            {/* <section className="consultation pb-5">
                 <div className="container">
                     <div id="consultation" className="consult" style="background-image:url('https://bplanwriter.com/wp-content/uploads/2024/01/pexels-sora-shimazaki-5668515-copy.webp');">
                         <div className="row">
@@ -73,7 +73,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
         </>
     )
